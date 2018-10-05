@@ -4,6 +4,13 @@ Create a contract shared between multiple users to make profit from JS500SK.
 ## API CALL EXAMPLE:
 ```
 http://your-ip.com/sdk/create_contracts/?developer_key={key}&invoice={btc_amount}&period={Month_Amount}&earner_fees={1%}
+Output would be like this:
+
+Contract Period: {amt}
+JS500SK Earnings: {amt}
+Your Fee Earnings: {amt}-{fee_amt}
+Estimated BTC from contract: {amt}
+Panel URL: {direct_link}
 ```
 
 ### developer_key:
